@@ -1,0 +1,85 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #36a1d4;
+    font-family: 'Montserrat', sans-serif;
+    color: seashell;
+    font-size: 14px;
+}
+header{
+    background-color: seashell;
+    margin: 0px;
+    padding: 5px;
+    color: #36a1d4;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.day{
+    width: 100%;
+    margin-bottom: 25px;
+    float: left;
+    text-align: center;
+}
+.lecture{
+    box-sizing: border-box;
+    position: relative;
+    box-align :center;
+    width: 25%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: seashell;
+}
+.join_now_link{
+    position: relative;
+    left: 50%;
+}
+.details{
+    text-align: center;
+    padding: 2px;
+}
+.butt{
+    position: absolute;
+    left: 31%;
+    padding-top: 10px;
+}
+.lecture1{
+    box-sizing: border-box;
+    position: relative;
+    align:center;
+    width: 50%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: seashell;
+}
+.butt1{
+    position: absolute;
+    left: 40%;
+    padding-top: 10px;
+}
+h2{
+    text-shadow: 0px,0px,10px,1px, slategray;
+}
+.details1{
+    font-size: 12px;
+}
+
+@media(max-width:746px){
+    .lecture{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .butt{
+        left: 20%;
+    }
+    .butt1{
+        left: 20%;
+    }
+}
