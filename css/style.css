@@ -6,6 +6,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: seashell;
     font-size: 14px;
+    text-align: center;
 }
 header{
     background-color: seashell;
@@ -35,8 +36,7 @@ header{
     border-color: seashell;
 }
 .join_now_link{
-    position: relative;
-    left: 50%;
+    margin: ;
 }
 .details{
     text-align: center;
@@ -44,8 +44,11 @@ header{
 }
 .butt{
     position: absolute;
-    left: 31%;
-    padding-top: 10px;
+    padding-top: 40px;
+    margin: 0px;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%,-50%);
 }
 .lecture1{
     box-sizing: border-box;
@@ -61,25 +64,31 @@ header{
 }
 .butt1{
     position: absolute;
-    left: 40%;
-    padding-top: 10px;
+    padding-top: 40px;
+    margin: 0px;
+    left: 50%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%,-50%);
 }
 h2{
     text-shadow: 0px,0px,10px,1px, slategray;
+    font-weight: 900;
 }
-.details1{
+.foot{
     font-size: 12px;
+    text-align: center;
+    padding-top: 200px;
+    margin-top: 1000px;
+
 }
 
+
 @media(max-width:746px){
+    .body{
+        font-size: 12px;
+    }
     .lecture{
         width: 50%;
         margin-bottom: 40px;
-    }
-    .butt{
-        left: 20%;
-    }
-    .butt1{
-        left: 20%;
     }
 }
