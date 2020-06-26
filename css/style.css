@@ -36,7 +36,7 @@ header{
     border-color: seashell;
 }
 .join_now_link{
-    margin: ;
+    margin: 0px ;
 }
 .details{
     text-align: center;
@@ -75,10 +75,10 @@ h2{
     font-weight: 900;
 }
 .foot{
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     padding-top: 200px;
-    margin-top: 1000px;
+    margin-top: 800px;
 }
 .join_now_link{
     background-color:#36a1d4;
@@ -97,7 +97,77 @@ h2{
 .tt{
     margin-bottom: 0px;
 }
+.TTpage1{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: seashell;
+}
+.Qpage1{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: seashell;
+    color: #36a1d4;
+    border: 1px solid #36a1d4;
+    }
 
+.TTpage2{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: seashell;
+    color: #36a1d4;
+    border: 1px solid #36a1d4;
+    }
+.Qpage2{
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#upq{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 900;
+}
+#quiz{
+    width: 100%;
+    padding: 10px;
+}
+#quiz_link{
+    margin-top: 1000px;
+}
+.linktt{
+    text-decoration: none;
+    color: #36a1d4;
+}
+.linkq{
+    text-decoration: none;
+    color: seashell;
+}
+.linktt1{
+    text-decoration: none;
+    color: seashell;
+}
+.linkq1{
+    text-decoration: none;
+    color: #36a1d4;
+}
 @media(max-width:746px){
     .body{
         font-size: 12px;
