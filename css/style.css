@@ -85,8 +85,18 @@ h2{
     border: 1.5px solid seashell;
     color: seashell;
     box-shadow: 4px 4px 8px 0 slategray;
+    font-weight: 400;
 }
-
+.elec{
+    margin: 0px;
+}
+.sem{
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.tt{
+    margin-bottom: 0px;
+}
 
 @media(max-width:746px){
     .body{
