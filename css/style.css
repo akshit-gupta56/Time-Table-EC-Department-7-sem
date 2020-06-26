@@ -79,7 +79,12 @@ h2{
     text-align: center;
     padding-top: 200px;
     margin-top: 1000px;
-
+}
+.join_now_link{
+    background-color:#36a1d4;
+    border: 1.5px solid seashell;
+    color: seashell;
+    box-shadow: 4px 4px 8px 0 slategray;
 }
 
 
