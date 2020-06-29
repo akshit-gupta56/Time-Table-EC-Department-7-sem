@@ -53,7 +53,6 @@ header{
 .lecture1{
     box-sizing: border-box;
     position: relative;
-    align:center;
     width: 50%;
     float: left;
     padding: 0px;
