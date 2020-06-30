@@ -107,7 +107,7 @@ h2{
     width: 50%;
     float: left;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     padding-top: 5px;
     padding-bottom: 5px;
     color: seashell;
@@ -117,7 +117,7 @@ h2{
     width: 50%;
     float: left;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: seashell;
@@ -130,7 +130,7 @@ h2{
     width: 50%;
     float: left;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: seashell;
@@ -141,7 +141,7 @@ h2{
     width: 50%;
     float: left;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -153,7 +153,7 @@ h2{
 #quiz{
     width: 100%;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     border-width: 1.5px;
 }
 #quiz_link{
