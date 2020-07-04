@@ -93,7 +93,8 @@ h2{
     border: 1.5px solid seashell;
     color: seashell;
     box-shadow: 2px 2px 2px 0px gray;
-    font-weight: 400;
+    font-weight: 500;
+    border-radius: 10px 10px 10px 10px ;
 }
 .elec{
     margin: 0px;
@@ -178,6 +179,11 @@ h2{
 .linkq1{
     text-decoration: none;
     color: #36a1d4;
+}
+#quiz_button{
+    background-color: seashell;
+    color: #36a1d4;
+    font-weight: 600;
 }
 @media(max-width:746px){
     .body{
